@@ -1,4 +1,5 @@
 import Ledger from './Ledger'
+import './App.css'
 function App() {
 
   return (
