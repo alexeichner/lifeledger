@@ -1,16 +1,13 @@
-function MyButton() {
-  return (
-    <button>
-      I'm a button
-    </button>
-  );
-}
+import Ledger from './Ledger'
+function App() {
 
-export default function MyApp() {
   return (
     <div>
-      <h1>Welcome to my app</h1>
-      <MyButton />
+      <h1>Ledger</h1>
+      <Ledger/>
     </div>
   );
-}
+};
+
+
+export default App
